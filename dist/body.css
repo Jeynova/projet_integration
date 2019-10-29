@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e7e7e7;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  padding-top: 12rem;
+  position: relative;
+}
+body .container {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+}
+
+body.has-overlay::after {
+  content: "";
+  display: block;
+  position: fixed;
+  padding: 100px 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=body.css.map */

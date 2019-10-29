@@ -1,0 +1,30 @@
+@import "variables";
+
+footer{
+  font-family: $roboto;
+  background-color: $black;
+  color: $awful-yellow;
+  .footer-list{
+    ul{
+      list-style: none;
+      columns: 2;
+    }
+    a{
+      color: $awful-yellow;
+      text-decoration: none;
+
+
+    }
+
+  }
+  .footer-link{
+    width: 80%;
+  }
+
+  .footer-follow{
+    width: 20%;
+    >i{
+      color: white;
+    }
+  }
+}

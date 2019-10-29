@@ -1,0 +1,82 @@
+
+  $poiret: Poiret One, cursive;
+
+  $roboto: Roboto, sans-serif;
+
+  $black: black;
+
+  $main-color:#e7e7e7;
+
+  $awful-yellow :#f6ec44;
+
+  $bluemet : #008CBA;
+
+  .flex{
+    display: flex;
+  }
+
+  .-column{
+    flex-direction: column;
+  }
+
+  .justify-end{
+    justify-content: flex-end;
+  }
+
+  .justify-space-between{
+    justify-content: space-between;
+  }
+
+.align-start{
+  align-items: flex-start;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.block{
+  display: block;
+}
+
+.static{
+  position: static;
+}
+
+.inline{
+  display: inline;
+}
+
+.fixed{
+  position: fixed;
+}
+
+
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99;
+  }
